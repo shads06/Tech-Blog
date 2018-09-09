@@ -12,56 +12,52 @@
 	font-size: 14px;
 	}
 
-	a {
-	text-decoration: none;
-	color: white;
-	}
-
-	a:hover {
-	color: red;
-	}
-
-	#menu {
-	margin-left: 30px;
-	}
-
-	#menu a {
-	display: block;
-	width: 140px;
-	}
-
-	#menu ul {
-	padding-top: 5px;
-	}
-
-	#menu li {
-	float: left;
-	position: relative;
-	padding: 3px 0;
-	text-align: center;
-	}
-
-	#menu ul.sub-menu {
-	display: none;
+	#SubMenu {
+	list-style-type: none;
 	position: absolute;
-	top: 20px;
-	padding: 10px;
-	background-color:black;
+	display: none;
+	padding-left: 0;
+	background-color: rgb(36, 134, 233);
 	}
 
-	#menu ul.sub-menu li {
+	#SubMenu li {
 	text-align: left;
+	display: block;
 	}
 
-	#menu li:hover ul.sub-menu {
+	#MenuSingle li:hover ul#SubMenu {
 	display: block;
-	border: 5px solid #ececec;
+	border: 1px solid rgb(200, 212, 280);
 	}
+
+	/*Top Menu Styling*/
+	div#MenuSingle{
+			background-color: rgb(36, 134, 233);
+			border: 1px solid rgb(36, 134, 233);
+			box-shadow: 0px 10px 6px -6px rgb(173, 173, 173);
+	}
+	div#MenuSingle>ul{
+			list-style-type: none;
+			margin: 0;
+			padding-left: 0;
+	}
+	div#MenuSingle>ul>li,a{
+			display: inline-block;
+	}
+	div#MenuSingle a{
+			padding: 15px 20px;
+			text-decoration-line: none;
+			color:rgba(235, 235, 235, 0.781);
+			font: 14px/18px sans-serif;
+	}
+	div#MenuSingle a:hover{
+			color: white;
+	}
+
 	</style>
 	</head>
 
 	<body background="http://i.imgur.com/WN2UuH5.jpg" alink = "green" vlink = "purple" link = "blue">
-
 	<table background="http://i.imgur.com/djbvgRm.jpg" width=100%>
 	<tr>
 		<td align="center">
@@ -70,28 +66,29 @@
 	</tr>
 	</table>
 
-	<div id="menu">
-	<ul>
-		<li><a href="Tech-World.html">Home</a></li>
+	<div id="MenuSingle">
+		<ul>
+			<li><a href="Tech-World.html">Home</a></li>
 
-		<li><a href="website.html">Computers</a></li>
+			<li><a href="website.html">Computers</a></li>
 
-		<li><a href="Laptops.html">Laptops</a></li>
+			<li><a href="Laptops.html">Laptops</a></li>
 
-		<li><a href="camera.html">Camera</a></li>
+			<li><a href="camera.html">Camera</a></li>
 
-		<li><a href="mobile.html">Mobile</a></li>
+			<li><a href="mobile.html">Mobile</a></li>
 
-		<li><a href="#">Contact</a>
-
-		<ul class="sub-menu">
-			<li><a href="email.html">E-mail Us</a></li>
-			<li><a href="contact_form.html">Use Our Contact Form</a></li>
+			<li>
+				<a href="#">Contact</a>
+				<ul id="SubMenu">
+						<li><a href="email.html">E-mail Us</a></li>
+						<li><a href="contact_form.html">Use Our Contact Form</a></li>
+				</ul>
+			</li>
 		</ul>
-		</li>
-	</ul>
 	</div>
 
+<br/><br/>
 	<p align="center">
 	<table border=1 cellspacing=0 width=60% background="http://i.imgur.com/F79LIp9.jpg">
 		<tr>
@@ -119,7 +116,7 @@ The Yoga certainly seems to be everyone's choice for a great Windows 8 ambassado
 	<video align="left" width="320" height="240" controls>
 	<source src="videos\video.mp4" type="video/mp4">
 	</video>
-		
+
 Sony still hasn't confirmed when we'll see a PlayStation 4 -- bet on late 2013 as the earliest. In the meantime, though, the venerable PlayStation 3 has gotten a face-lift. We've dubbed it the "Super Slim PlayStation 3," since this third iteration of the console is the thinnest and smallest yet. It's logical to assume that this will probably be the last PlayStation 3 design change before its successor, so it allows us to take a look at the console as a whole to see how far it really has come.
 If you're someone who hasn't yet purchased a game console this generation or owns another system, or is simply trying to discover if the Super Slim is worth the upgrade, this review should serve as an answer to all of those scenarios.
 What you need to know about the Super Slim PS3 is that it will first be available in two bundle-only packages. The first, a 250GB model, will ship September 25 for $270 and include Uncharted 3 plus the full download-only game Dust 514 (along with some subsequent DLC).
@@ -134,7 +131,7 @@ What you need to know about the Super Slim PS3 is that it will first be availabl
 	<video align="left" width="320" height="240" controls>
   	<source src="videos\video.mp4" type="video/mp4">
   	</video>
-		
+
 The Linksys EA4500 is very similar to the Linksys E4200 v2, boasting a great design, 450Mbps Wi-Fi speed on both 5GHz and 2.4GHz bands, a fast processor for network storage when coupled with an USB external hard drive, and the ability to host up to 50 guest clients. In fact, I found out via testing that the two routers offered very similar performance. This means that when Cisco Connect Cloud firmware becomes available for the E4200 v2, it will essentially be an EA4500 router, making it a great deal since currently it costs about $20 less than the EA4500.
 That said, the EA4500 is not perfect; it lacks support for 802.11ac and doesn't offer a way for users to manage it without having to log in with an Cisco Connect Cloud account. Its 2.4Ghz band's performance could also use some improvement.
 
