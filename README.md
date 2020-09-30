@@ -1,4 +1,4 @@
-# Tech-World-Blog
+# Tech-World-Blog-An Amazing Project
 Static Blog website. HTML and CSS
 # Browse Tech World
 Click on Tech-World.html file to open website.
